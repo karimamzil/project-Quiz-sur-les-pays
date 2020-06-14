@@ -1,0 +1,30 @@
+body {
+	font-family:Verdana,Arial,Sans;
+	font-size:13px;
+	background:#CCCCCC;
+}
+
+#titre {
+	font-size:16px;
+}
+
+#listes {
+	display:inline-block;
+}
+
+#carte {
+	display:inline-block;
+}
+
+#boutons {
+	margin-top:30px;
+}
+
+.OK {
+	background: #0066CC;
+}
+
+.NOK {
+	background: #FF0000;
+}
+
