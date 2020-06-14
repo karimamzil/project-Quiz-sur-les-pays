@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz sur les pays</title>
+<link rel="stylesheet" media="screen" href="styles.css" type="text/css"/>
+<script src="jquery.js"></script>
+</head>
+<body>
+
+<!-- Titre -->
+<div id="titre"></div>
+
+<!-- Temps de jeu -->
+<div id="heure"></div>
+
+<!-- Listes déroulantes -->
+<form id="listes" name="listes"></form>
+
+<!-- Carte -->
+<div id="carte"><img src="carte.png" height="328" alt="carte des pays en stan"></div>
+
+<!-- Boutons -->
+<!-- commentaire des tuteurs
+Les boutons Reset et Valider sont à l'extérieur de <form ...>...</form>. Certes, le formulaire n'est pas ici utilisé comme un formulaire destiné à être traité par un script côté serveur (et ce n'est pas l'objet de ce MOOC), mais sémantiquement, avant HTML5, les éléments d'un formulaire devaient absolument être à l'intérieur de celui-ci. Depuis HTML5, ils peuvent être en dehors de celui-ci, mais dans ce cas présenter en toute rigueur l'attribut form précisant à quel formulaire ils appartiennent :
+
+<input type="submit" name="boutonReset" id="boutonReset" VALUE="Reset" onclick="fonctionReset()" form="listes"/>
+
+-->
+<div id="boutons">
+	<input type="submit" name="boutonReset" id="boutonReset" VALUE="Reset" onclick="fonctionReset()"/>
+	<input type="submit" name="boutonValider" id="boutonValider" VALUE="Valider" onclick="fonctionValider()"/>
+</div>
+
+<!-- code JS --> 
+<script src="code.js"></script>
+
+</body>
+</html>
+	
